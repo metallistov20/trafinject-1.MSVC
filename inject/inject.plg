@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: inject - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\user\AppData\Local\Temp\RSP9D49.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\WORK001\trafinject-1\inject.c"
+]
+Creating command line "cl.exe @C:\Users\user\AppData\Local\Temp\RSP9D49.tmp" 
+Creating temporary file "C:\Users\user\AppData\Local\Temp\RSP9D4A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  libxml2.lib  /nologo /subsystem:console /incremental:no /pdb:"Release/inject.pdb" /machine:I386 /out:"Release/inject.exe" 
+.\Release\auxiliary.obj
+.\Release\inject.obj
+.\Release\lists.obj
+.\Release\StdAfx.obj
+.\Release\xmls.obj
+.\Release\voc.obj
+.\Release\getopt.obj
+]
+Creating command line "link.exe @C:\Users\user\AppData\Local\Temp\RSP9D4A.tmp"
+<h3>Output Window</h3>
+Compiling...
+inject.c
+Importing getopt library
+C:\WORK001\trafinject-1\inject.c(145) : warning C4013: '_parse_xml_cast' undefined; assuming extern returning int
+C:\WORK001\trafinject-1\inject.c(148) : warning C4013: '_GlueUrl' undefined; assuming extern returning int
+C:\WORK001\trafinject-1\inject.c(155) : warning C4013: '_DeployUrlEx' undefined; assuming extern returning int
+C:\WORK001\trafinject-1\inject.c(200) : warning C4013: '_DeployUrl' undefined; assuming extern returning int
+C:\WORK001\trafinject-1\inject.c(260) : warning C4013: '_DeleteUrlEx' undefined; assuming extern returning int
+C:\WORK001\trafinject-1\inject.c(265) : warning C4002: too many actual parameters for macro 'DURL'
+C:\WORK001\trafinject-1\inject.c(273) : warning C4002: too many actual parameters for macro 'DURL'
+C:\WORK001\trafinject-1\inject.c(418) : warning C4002: too many actual parameters for macro 'DCOMMON'
+C:\WORK001\trafinject-1\inject.c(507) : warning C4002: too many actual parameters for macro 'DCOMMON'
+C:\WORK001\trafinject-1\inject.c(513) : warning C4002: too many actual parameters for macro 'DCOMMON'
+C:\WORK001\trafinject-1\inject.c(519) : warning C4002: too many actual parameters for macro 'DCOMMON'
+C:\WORK001\trafinject-1\inject.c(525) : warning C4002: too many actual parameters for macro 'DCOMMON'
+C:\WORK001\trafinject-1\inject.c(531) : warning C4002: too many actual parameters for macro 'DCOMMON'
+C:\WORK001\trafinject-1\inject.c(537) : warning C4002: too many actual parameters for macro 'DCOMMON'
+C:\WORK001\trafinject-1\inject.c(543) : warning C4002: too many actual parameters for macro 'DCOMMON'
+C:\WORK001\trafinject-1\inject.c(549) : warning C4002: too many actual parameters for macro 'DCOMMON'
+C:\WORK001\trafinject-1\inject.c(556) : warning C4002: too many actual parameters for macro 'DCOMMON'
+C:\WORK001\trafinject-1\inject.c(562) : warning C4002: too many actual parameters for macro 'DCOMMON'
+C:\WORK001\trafinject-1\inject.c(568) : warning C4002: too many actual parameters for macro 'DCOMMON'
+C:\WORK001\trafinject-1\inject.c(574) : warning C4002: too many actual parameters for macro 'DCOMMON'
+C:\WORK001\trafinject-1\inject.c(580) : warning C4002: too many actual parameters for macro 'DCOMMON'
+C:\WORK001\trafinject-1\inject.c(586) : warning C4002: too many actual parameters for macro 'DCOMMON'
+C:\WORK001\trafinject-1\inject.c(592) : warning C4002: too many actual parameters for macro 'DCOMMON'
+C:\WORK001\trafinject-1\inject.c(598) : warning C4002: too many actual parameters for macro 'DCOMMON'
+C:\WORK001\trafinject-1\inject.c(608) : warning C4002: too many actual parameters for macro 'DCOMMON'
+C:\WORK001\trafinject-1\inject.c(616) : warning C4002: too many actual parameters for macro 'DCOMMON'
+C:\WORK001\trafinject-1\inject.c(622) : warning C4013: '_XmlAuxCreateEx' undefined; assuming extern returning int
+C:\WORK001\trafinject-1\inject.c(624) : warning C4002: too many actual parameters for macro 'DCOMMON'
+C:\WORK001\trafinject-1\inject.c(637) : warning C4002: too many actual parameters for macro 'DCOMMON'
+C:\WORK001\trafinject-1\inject.c(689) : warning C4002: too many actual parameters for macro 'DCOMMON'
+C:\WORK001\trafinject-1\inject.c(706) : warning C4002: too many actual parameters for macro 'DCOMMON'
+C:\WORK001\trafinject-1\inject.c(710) : warning C4013: '_DeleteXmlAuxEx' undefined; assuming extern returning int
+C:\WORK001\trafinject-1\inject.c(721) : warning C4002: too many actual parameters for macro 'DCOMMON'
+Linking...
+   Creating library Release/inject.lib and object Release/inject.exp
+LINK : warning LNK4049: locally defined symbol "_optarg_a" imported
+LINK : warning LNK4049: locally defined symbol "_getopt_long_a" imported
+
+
+
+<h3>Results</h3>
+inject.exe - 0 error(s), 35 warning(s)
+</pre>
+</body>
+</html>
